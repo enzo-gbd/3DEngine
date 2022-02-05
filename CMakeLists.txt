@@ -1,0 +1,8 @@
+cmake_minimum_required( VERSION 2.8 )
+set(CMAKE_BUILD_TYPE Release)
+project (3DEngine)
+add_subdirectory(src)
+add_subdirectory(dependencies)
+target_include_directories(3DEngine PUBLIC /usr/local/Cellar/fmt/8.1.1/include/)
+set_target_properties(3DEngine PROPERTIES CXX_STANDARD 17)
+set_target_properties(3DEngine PROPERTIES CXX_STANDARD_REQUIRED 17)
