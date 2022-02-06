@@ -1,19 +1,19 @@
 set(SRCS
     main.cpp
-    ../dependencies/imgui-cmake/libs/imgui/imconfig.h
-    ../dependencies/imgui-cmake/libs/imgui/imgui.cpp
-    ../dependencies/imgui-cmake/libs/imgui/imgui.h
-    ../dependencies/imgui-cmake/libs/imgui/imgui_demo.cpp
-    ../dependencies/imgui-cmake/libs/imgui/imgui_draw.cpp
-    ../dependencies/imgui-cmake/libs/imgui/imgui_internal.h
-    ../dependencies/imgui-cmake/libs/imgui/imgui_widgets.cpp
-    ../dependencies/imgui-cmake/libs/imgui/imstb_rectpack.h
-    ../dependencies/imgui-cmake/libs/imgui/imstb_textedit.h
-    ../dependencies/imgui-cmake/libs/imgui/imstb_truetype.h
-    ../dependencies/imgui-cmake/libs/imgui/backends/imgui_impl_opengl3.cpp
-    ../dependencies/imgui-cmake/libs/imgui/backends/imgui_impl_opengl3.h
-    ../dependencies/imgui-cmake/libs/imgui/backends/imgui_impl_sdl.cpp
-    ../dependencies/imgui-cmake/libs/imgui/backends/imgui_impl_sdl.h)
+    ../dependencies/imguiCmake/libs/imgui/imconfig.h
+    ../dependencies/imguiCmake/libs/imgui/imgui.cpp
+    ../dependencies/imguiCmake/libs/imgui/imgui.h
+    ../dependencies/imguiCmake/libs/imgui/imgui_demo.cpp
+    ../dependencies/imguiCmake/libs/imgui/imgui_draw.cpp
+    ../dependencies/imguiCmake/libs/imgui/imgui_internal.h
+    ../dependencies/imguiCmake/libs/imgui/imgui_widgets.cpp
+    ../dependencies/imguiCmake/libs/imgui/imstb_rectpack.h
+    ../dependencies/imguiCmake/libs/imgui/imstb_textedit.h
+    ../dependencies/imguiCmake/libs/imgui/imstb_truetype.h
+    ../dependencies/imguiCmake/libs/imgui/backends/imgui_impl_opengl3.cpp
+    ../dependencies/imguiCmake/libs/imgui/backends/imgui_impl_opengl3.h
+    ../dependencies/imguiCmake/libs/imgui/backends/imgui_impl_sdl.cpp
+    ../dependencies/imguiCmake/libs/imgui/backends/imgui_impl_sdl.h)
 
 add_executable (3DEngine ${SRCS})
 target_link_libraries(3DEngine fmt)

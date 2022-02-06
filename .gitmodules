@@ -7,6 +7,9 @@
 [submodule "dependencies/glad"]
 	path = dependencies/glad
 	url = https://github.com/Dav1dde/glad.git
-[submodule "dependencies/imgui-cmake"]
-	path = dependencies/imgui-cmake
-	url = git@github.com:Pesc0/imgui-cmake.git
+[submodule "dependencies/imguiCmake/libs/imgui"]
+	path = dependencies/imguiCmake/libs/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "dependencies/imguiCmake/libs/SDL"]
+	path = dependencies/imguiCmake/libs/SDL
+	url = https://github.com/libsdl-org/SDL.git
